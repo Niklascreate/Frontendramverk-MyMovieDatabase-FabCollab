@@ -1,0 +1,14 @@
+#root {
+  max-width: 1280px;
+  border: solid black 1px;
+  margin: 2rem;
+  height: 100vh;
+}
+
+:root {
+  --main-green: #38846D;
+  --background: gray;
+  --text-color: #2F2926;
+  --border-radius: .25rem;
+}
+
