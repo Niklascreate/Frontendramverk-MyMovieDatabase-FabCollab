@@ -1,6 +1,6 @@
 // api nyckel : be1d2151
 
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './header.css';
 import axios from 'axios';
 
@@ -8,6 +8,7 @@ function Header() {
     const [searchTerm, setSearchTerm] = useState('');
     const [searchResults, setSearchResults] = useState([]);
     const [showDropdown, setShowDropdown] = useState(false);
+    const dropdownRef = useRef(null);
 
     const handleSearch = () => {
         const apiKey = 'be1d2151';
@@ -59,25 +60,27 @@ function Header() {
                 <button className='search-button' onClick={handleSearch}>Sök</button>
 
 
-                {/* Dropdown */}
-                {showDropdown && (
-                    <div className="search-dropdown">
-                        {searchResults.slice(0, 8).map(movie => (
-                            <div
-                                key={movie.imdbID}
-                                className="movie-card"
-                                onClick={() => handleSelectMovie(movie)}
-                            >
-                                <img src={movie.Poster} alt={movie.Title} className="movie-poster" />
-                                <div className="movie-info">
-                                    <h3>{movie.Title}</h3>
-                                    <p>{movie.Year}</p>
-                                </div>
-                            </div>
-                        ))}
-                    </div>
-                )}
-            </section>
+              {/* Dropdown */}
+{showDropdown && (
+    <div ref={dropdownRef} className="search-dropdown">
+        {searchResults.slice(0, 8).map(movie => (
+            <div
+                key={movie.imdbID}
+                className="movie-card"
+                onClick={() => handleSelectMovie(movie)}
+            >
+                <img src={movie.Poster} alt={movie.Title} className="movie-poster" />
+                <div className="movie-info">
+                    <h3>{movie.Title}</h3>
+                    <p>{movie.Year}</p>
+                </div>
+            </div>
+        ))}
+    </div>
+    
+)}
+</section>
+
 
 
 

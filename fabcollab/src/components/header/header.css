@@ -1,7 +1,7 @@
 .header{
 width: 100%;
 height: 100px;
-background-color: black;
+background-color: #111;
 color: beige;
 display: flex;
 flex-direction: row;
@@ -61,7 +61,7 @@ align-items: center;
 
 .watchlist{
     font-size: 1.2rem;
-    background-color: black;
+    background-color: #111;
     color: aqua;
     border: none;
     cursor: pointer;
@@ -70,7 +70,7 @@ align-items: center;
 
 .favorit{
     font-size: 1.2rem;
-    background-color: black;
+    background-color: #111;
     color: aqua;
     border: none;
     cursor: pointer;
