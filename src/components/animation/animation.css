@@ -1,0 +1,30 @@
+.animation-streaming {
+    font-size: 16px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    color: #e3d4bc;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.animation-container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 20px;
+    margin-top: .3rem;
+  }
+  
+  .animation-streaming {
+    position: absolute;
+    right: 100%;
+    animation: streamingAnimation 8s linear infinite !important;
+  }
+  
+  @keyframes streamingAnimation {
+    0% {
+      right: 100%;
+    }
+    100% {
+      right: -10%;
+    }
+  }

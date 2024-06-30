@@ -1,0 +1,95 @@
+.card {
+  width: 800px;
+  height: 470px;
+  background: transparent;
+  left: 0;
+  right: 0;
+  margin: 7rem auto;
+  top: 0;
+  bottom: 0;
+  border-radius: 10px;
+  box-shadow: 0px 20px 30px 3px rgba(0, 0, 0, 0.55);
+}
+
+.card_left {
+  width: 40%;
+  float: left;
+  overflow: hidden;
+  background: transparent;
+}
+
+.card_left .movie-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px 0 0 10px;
+  height: 470px;
+}
+
+.card_right {
+  width: 60%;
+  float: left;
+  background: #2c2c30;
+  height: 470px;
+  border-radius: 0 10px 10px 0;
+}
+
+.movie-info__title {
+  color: #e0d1be;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  text-align: left;
+  font-size: 40px;
+  margin: 2rem 0 0 0;
+  padding: 0 0 0 2rem;
+  letter-spacing: 1px;
+}
+
+.card_right__details ul {
+  list-style-type: none;
+  padding: 0 0 0 2rem;
+  margin: 1rem 0 0 0;
+}
+
+.card_right__details ul li {
+  display: inline;
+  color: #e0d1be;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  padding: 0 3rem 0 0;
+}
+
+.movie-description {
+  color: #e0d1be;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  padding: 0 2rem;
+  letter-spacing: 1px;
+  margin: 1rem 0;
+  line-height: 20px;
+}
+
+.movie-logo {
+  cursor: pointer;
+  width: 30px;
+  height: 30px;
+}
+
+.movie-logo:hover {
+  transform: scale(1.1);
+}
+
+.movie-logo:visited {
+  will-change: contents;
+}
+
+.card_right__logo .ul-logo {
+  list-style-type: none;
+  padding: 0 0 0 2rem;
+  margin: 1rem 0 0 0;
+}
+
+.card_right__logo .ul-logo .li-logo {
+  display: inline;
+  padding: 0 1.2rem 0 0;
+}

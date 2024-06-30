@@ -1,0 +1,15 @@
+.homePage-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    row-gap: 1rem;
+}
+
+.homePage-heading {
+    margin: 2rem 0 2rem .5rem;
+    color: #e3d4bc;
+    font-size: 36px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

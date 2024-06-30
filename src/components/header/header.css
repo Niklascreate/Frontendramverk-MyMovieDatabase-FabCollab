@@ -1,0 +1,13 @@
+
+.header{
+width: 100%;
+height: 100px;
+background-color: rgb(41,41,41);
+color: beige;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+}

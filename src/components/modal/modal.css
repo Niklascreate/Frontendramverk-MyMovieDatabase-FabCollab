@@ -1,0 +1,49 @@
+.modal {
+  display: flex; 
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; 
+  background-color: rgba(0,0,0,0.7); 
+  justify-content: center; 
+  align-items: center; 
+}
+
+.modal-content {
+  padding: 20px;
+  width: 700px;
+  background-color: #153448;
+  border-radius: 0.25rem;
+}
+
+.modal-close {
+  color: #e0d1be;
+  float: right;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.modal-close:hover,
+.modal-close:focus {
+  color: #222;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+
+.modal-heading {
+  color: #e0d1be;
+  letter-spacing: 1px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+}
+
+.modal-btn__container {
+  display: flex;
+  justify-content: space-around;
+}
+

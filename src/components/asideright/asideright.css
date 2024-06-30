@@ -1,0 +1,17 @@
+.logos img {
+    width: auto;
+    height: 70px;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+}
+
+.logos img:hover {
+    transform: scale(1.1);
+}
+
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

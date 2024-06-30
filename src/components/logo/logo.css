@@ -1,0 +1,15 @@
+.header-title{
+    color: #e3d4bc;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.header-title h1{
+    font-size: 1.6rem;
+}
+
+.header-title p{
+    font-size: .8rem;
+}

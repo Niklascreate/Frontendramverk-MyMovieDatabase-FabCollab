@@ -1,0 +1,126 @@
+.searchlist__title {
+    margin-top: 2rem;
+    text-align: center;
+    color: #e3d4bc;
+    font-size: 36px;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+}
+
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.movie-list img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.search-logo__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 1rem;
+    margin-bottom: 0.5rem;
+    margin-left: .5rem;
+}
+
+.movie-card {
+    border-radius: 10px;
+    height: auto;
+    width: 300px;
+    background-color: rgb(47,47,54);
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.2);
+    margin-top: 1rem;
+}
+  
+.movie-title {
+    color: #e0d1be;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin: .5rem 0 .5rem .5rem;
+    width: 18rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.movie-year {
+    color: #e0d1be;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: .5rem 0 .5rem .5rem;
+    width: 18rem;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.movie-card:hover {
+    transform: scale(1.02);
+}
+
+
+.searchPage-logo {
+    cursor: pointer;
+    height: 30px;
+    margin: 0 .3rem 0 0;
+}
+
+.searchPage-logo:hover {
+    transform: scale(1.1);
+}
+
+.movie-poster {
+    width: 100%;
+    height: 470px;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (max-width: 1100px) {
+    .movie-title {
+        font-size: 18px;
+
+@media screen and (max-width: 1300px) {
+    .movie-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .movie-list {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media screen and (max-width: 1280px) {
+    .movie-list {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .movie-list {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 1rem;
+        gap: 1rem;
+    }
+
+}

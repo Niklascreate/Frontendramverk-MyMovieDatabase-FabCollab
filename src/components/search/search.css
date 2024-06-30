@@ -1,0 +1,27 @@
+.header-search{
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+
+.searchInput{
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    border: none;
+}
+
+.search-button{
+    height: 40px;
+    width: 100px;
+    background-color: #555;
+    color: #e0d1be;
+    font-weight: 600;
+    font-size: 1rem;
+    border-top-right-radius: .25rem;
+    border-bottom-right-radius: .25rem;
+    border: none;
+    cursor: pointer;
+}
